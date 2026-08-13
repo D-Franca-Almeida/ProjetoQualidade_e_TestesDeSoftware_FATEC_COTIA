@@ -1,0 +1,66 @@
+/* Colors */
+:root{
+    --caramel:#C68642;
+    --caramel-dark:#a7752f;
+    --bg:#ffffff;
+    --text:#111111;
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{
+    font-family:'Poppins',system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    background:linear-gradient(180deg,#fff 0%, #fff 60%, #f8f2ef 100%);
+    color:var(--text);
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+}
+
+/* Navbar */
+.navbar{width:100%;background:transparent;padding:18px 24px}
+.navbar-container{max-width:1100px;margin:0 auto;display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:10px}
+.brand-logo{width:38px;height:38px;object-fit:contain;display:block}
+.logo-text{font-weight:600;color:var(--caramel);letter-spacing:0.2px}
+.nav-menu{list-style:none;display:flex;gap:20px}
+.nav-link{color:var(--text);text-decoration:none;font-weight:500;opacity:0.9}
+.nav-link:hover{color:var(--caramel)}
+
+/* Main layout */
+.main-container{min-height:calc(100vh - 72px);display:flex;align-items:center;justify-content:center;padding:40px 20px}
+.cadastro-card{
+    width:100%;max-width:420px;background:var(--bg);border-radius:16px;padding:36px 32px;box-shadow:0 10px 30px rgba(15,15,15,0.06);text-align:center;border:1px solid rgba(0,0,0,0.04)
+}
+
+/* Logo */
+.logo-container{display:flex;align-items:center;justify-content:center;margin-bottom:12px}
+.form-logo{width:72px;height:72px;object-fit:contain}
+.coffee-cup{width:64px;height:64px;stroke:var(--caramel-dark);}
+
+/* Cadastro */
+.cadastro-title{font-size:20px;margin-bottom:18px;color:var(--text);font-weight:600}
+
+/* Form */
+.cadastro-form{display:flex;flex-direction:column;gap:14px;align-items:stretch}
+.form-label{display:block;text-align:left;font-size:13px;margin-bottom:6px;color:rgba(0,0,0,0.7)}
+.form-input{width:100%;padding:12px 14px;border-radius:10px;border:1px solid rgba(0,0,0,0.08);background:#fff;font-size:14px}
+.form-input:focus{outline:none;box-shadow:0 4px 10px rgba(198,134,66,0.12);border-color:var(--caramel)}
+
+/* Button */
+.btn-cadastro{margin-top:6px;padding:12px 16px;border-radius:10px;border:none;background:var(--caramel);color:#fff;font-weight:600;cursor:pointer;font-size:15px}
+.btn-cadastro:hover{background:var(--caramel-dark);color:#fff}
+
+/* Login Link */
+.login-link-container{margin-top:14px}
+.login-text{font-size:13px;color:rgba(0,0,0,0.7)}
+.login-link{text-decoration:none;color:var(--caramel);font-weight:600}
+.login-link:hover{text-decoration:underline}
+
+/* Responsive */
+@media (max-width:520px){
+    .cadastro-card{padding:28px 20px;border-radius:14px}
+    .nav-menu{gap:12px;font-size:14px}
+}
+
+/* Footer Spacing */
+.cadastro-card p{line-height:1.4}
