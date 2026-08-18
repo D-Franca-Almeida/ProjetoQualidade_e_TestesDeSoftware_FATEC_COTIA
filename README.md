@@ -64,7 +64,7 @@
 
  📁 [Repositório GitHub](https://github.com/D-Franca-Almeida/ProjetoQualidade_e_TestesDeSoftware_FATEC_COTIA)
 
- 🌐 [GitHub Pages](https://github.com/D-Franca-Almeida/ProjetoQualidade_e_TestesDeSoftware_FATEC_COTIA/deployments/github-pages)
+ 🌐 [GitHub Pages](https://d-franca-almeida.github.io/ProjetoQualidade_e_TestesDeSoftware_FATEC_COTIA/)
 
 <h2>🌳 Branches e Conexões</h2>
 
