@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Toque de Doçura</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+
+            <div class="brand">
+                <img src="logo.png" alt="Logo Toque de Doçura" class="brand-logo">
+                <div class="logo-text">Toque de Doçura</div>
+            </div>
+
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Início</a></li>
+                <li><a href="sobre.html" class="nav-link">Sobre</a></li>
+                <li><a href="contato.html" class="nav-link">Contato</a></li>
+                <li><a href="cadastro.html" class="nav-link">Cadastro</a></li>
+                <li><a href="login.html" class="nav-link">Login</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <!-- Main -->
+    <main class="main-container">
+
+        <div class="cadastro-card">
+
+            <!-- Logo -->
+            <div class="logo-container">
+                <img
+                    src="logo.png"
+                    alt="Logo Toque de Doçura"
+                    class="brand-logo form-logo"
+                >
+            </div>
+
+            <!-- Title -->
+            <h1 class="cadastro-title">Entrar</h1>
+
+            <!-- Form -->
+            <form class="cadastro-form">
+
+                <div class="form-group">
+                    <label for="email" class="form-label">Email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        class="form-input"
+                        placeholder="seu.email@exemplo.com"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="password" class="form-label">Senha</label>
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        class="form-input"
+                        placeholder="Sua senha"
+                        required
+                    >
+                </div>
+
+                <button type="submit" class="btn-cadastro">
+                    Entrar
+                </button>
+
+            </form>
+
+            <!-- Cadastro Link -->
+            <div class="login-link-container">
+                <p class="login-text">
+                    Ainda não tenho uma conta
+                    <a href="cadastro.html" class="login-link">
+                        Cadastre-se
+                    </a>
+                </p>
+            </div>
+
+        </div>
+
+    </main>
+
+</body>
+</html>
